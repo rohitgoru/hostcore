@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: absolute;
+  top: 469px !important;
+  height: 26px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mySwiper .swiper-pagination-bullet {
+  background-color: #ffffff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mySwiper .swiper-button-prev {
+  position: absolute;
+  top: 530px;
+  left: calc(50% - 40px);
 }
-
-.App-link {
-  color: #61dafb;
+.mySwiper .swiper-button-next {
+  /* position: absolute; */
+  top: 530px;
+  right: calc(50% - 40px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mySwiper .swiper-button-prev::after {
+  display: none;
+}
+.mySwiper .swiper-button-next::after {
+  display: none;
 }

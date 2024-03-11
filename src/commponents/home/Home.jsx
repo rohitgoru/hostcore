@@ -1,10 +1,15 @@
 import React from "react";
+import HeroSection from "./HeroSection";
+import FindYourDomain from "./FindYourDomain";
+import WhyUs from "./WhyUs";
 
 const Home = () => {
   return (
-    <div>
-      <div className="text-red-400">this is the home page</div>
-    </div>
+    <>
+      <HeroSection />
+      <FindYourDomain />
+      <WhyUs />
+    </>
   );
 };
 
