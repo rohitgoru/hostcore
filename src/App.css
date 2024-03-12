@@ -1,3 +1,4 @@
+/* ###################### Slider Configration ###########################3 */
 .mySwiper .swiper-pagination-bullets.swiper-pagination-horizontal {
   position: absolute;
   top: 469px !important;
@@ -27,4 +28,20 @@
 }
 .mySwiper .swiper-button-next::after {
   display: none;
+}
+
+/* ###################### Toggle Switch style ################################ */
+
+.peer:checked ~ .peer-checked\:after\:translate-x-full::after {
+  --tw-translate-x: 120%;
+}
+
+/* ######################## Web Hosting Section Styling ############################ */
+
+.hosting-card-Shaddow {
+  box-shadow: 0px 6px 20px 0px #1018280f;
+}
+.hosting-card-Shaddow:hover {
+  box-shadow: 0px 6px 30px 1px #01499a1f;
+  border: none;
 }
