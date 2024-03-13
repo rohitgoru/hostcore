@@ -43,11 +43,31 @@ const slides = [
 
 const HeroSection = () => {
   const [showSidebr, SetShowSidebar] = useState(false);
-  const handleClick = () => SetShowSidebar(!showSidebr);
+
+  const handleClick = () => {
+    SetShowSidebar(!showSidebr);
+    if (!showSidebr) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+  };
+  const closeSidebar = () => {
+    console.log("clicked");
+    if (showSidebr) {
+      handleClick();
+    }
+  };
   return (
     <>
       <section>
         <Sidebar showSidebr={showSidebr} click={handleClick} />
+        <div
+          className={`overlay fixed top-0 left-0  h-screen w-screen bg-[f5f3f400] backdrop-blur-[10px]  z-40 overflow-hidden ${
+            showSidebr ? "" : "hidden"
+          }`}
+          onClick={closeSidebar}
+        ></div>
         <HeroContainer>
           <Nav click={handleClick} showSidebr={showSidebr} />
         </HeroContainer>
