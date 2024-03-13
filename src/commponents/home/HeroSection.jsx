@@ -47,7 +47,7 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <Sidebar showSidebr={showSidebr} />
+        <Sidebar showSidebr={showSidebr} click={handleClick} />
         <HeroContainer>
           <Nav click={handleClick} showSidebr={showSidebr} />
         </HeroContainer>

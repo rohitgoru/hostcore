@@ -46,7 +46,7 @@ export const HambergerCancel = () => (
   <svg className="h-8 w-8 fill-current" viewBox="0 0 24 24">
     <path
       d="M6 18L18 6M6 6l12 12"
-      stroke="gray"
+      stroke="#01499a"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -58,7 +58,7 @@ export const Hamberger = () => (
   <svg className="h-8 w-8 fill-current" viewBox="0 0 24 24">
     <path
       d="M4 6H20M4 12H20M4 18H20"
-      stroke="gray"
+      stroke="#01499a"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"

@@ -103,7 +103,9 @@ const Nav = ({ click, showSidebr }) => {
               />
             </div>
             <div
-              className={`lg:hidden block ${showSidebr ? "hidden" : "block"}`}
+              className={`lg:hidden block cursor-pointer transition duration-[1s] ${
+                showSidebr ? "hidden" : "block"
+              }`}
               onClick={click}
             >
               <Hamberger />
