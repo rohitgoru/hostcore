@@ -43,10 +43,10 @@ const Nav = () => {
   ];
   return (
     <>
-      <nav className="w-full max-w-[1172px] mx-auto flex justify-between items-center bg-transparent  h-[10vh]  ">
+      <nav className="w-full max-w-[1172px] mx-auto flex justify-between items-center bg-transparent  h-[10vh]   ">
         <div className="text-4xl gradient-text cursor-pointer ">
           <a href="/">
-            <img className="sm:w-[133px] w-[100px] " src={logo} alt="Logo" />
+            <img className="sm:w-[115px] w-[90px] " src={logo} alt="Logo" />
           </a>
         </div>
         <div className="flex items-center justify-center gap-5 ">

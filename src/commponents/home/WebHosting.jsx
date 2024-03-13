@@ -10,7 +10,9 @@ const WebHosting = () => {
     <>
       <CommonLayout>
         <div className="flex flex-col items-center justify-center lg:pb-[148px] md:pb-[115px] sm:pb-[70px] pb-[50px] text-center ">
-          <h2 className="heading text-primary text-center">Web Hosting</h2>
+          <h2 className="section-heading text-primary text-center">
+            Web Hosting
+          </h2>
 
           <div className="flex flex-wrap flex-col md:flex-row items-center md:justify-between justify-center lg:my-[80px] md:my-[70px] sm:my-[50px] my-[30px] md:max-w-[756px]  w-full bg-[#F2F2F2] md:rounded-[56px] rounded-2xl p-3  gap-4">
             <button

@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import FindYourDomain from "./FindYourDomain";
 import WhyUs from "./WhyUs";
 import WebHosting from "./WebHosting";
+import BeTheFirstToKnow from "./BeTheFirstToKnow";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <FindYourDomain />
       <WhyUs />
       <WebHosting />
+      <BeTheFirstToKnow />
     </>
   );
 };

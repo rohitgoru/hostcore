@@ -13,25 +13,25 @@ const slides = [
     buttonText: "Get Started",
   },
   {
-    title: "Unturned Web Hosting",
+    title: "Vercel Web Hosting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     buttonText: "Get Started",
   },
   {
-    title: "Unturned Web Hosting",
+    title: "Firebase Web Hosting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     buttonText: "Get Started",
   },
   {
-    title: "Unturned Web Hosting",
+    title: "Hostinger Web Hosting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     buttonText: "Get Started",
   },
   {
-    title: "Unturned Web Hosting",
+    title: "Natilyfy Web Hosting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     buttonText: "Get Started",

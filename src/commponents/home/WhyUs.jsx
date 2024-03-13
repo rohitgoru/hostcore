@@ -52,7 +52,9 @@ const WhyUs = () => {
   return (
     <CommonLayout>
       <div className="flex flex-col items-center justify-center lg:py-[148px] md:py-[115px] sm:py-[70px] py-[50px] text-center ">
-        <h2 className="heading text-primary text-center">Why Us?</h2>
+        <h2 className="section-heading leading-[126.25%]  text-primary text-center">
+          Why Us?
+        </h2>
         <div className="flex flex-wrap justify-center  items-center lg:gap-y-[60px] md:gap-y-[40px] sm:gap-y-[26px] gap-y-[18px] xl:gap-x-[110px]  md:gap-x-[50px] gap-x-[30px] lg:mt-[84px] md:mt-[70px] sm:mt-[50px] mt-[30px] w-full">
           {cardData.map((card, index) => (
             <div
