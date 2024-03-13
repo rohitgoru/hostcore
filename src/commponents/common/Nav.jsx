@@ -5,7 +5,7 @@ import ButtonPrimary from "./ButtonPrimary";
 import UserDropDown from "./UserDropDown";
 import { Hamberger } from "./Icon";
 
-const Nav = () => {
+const Nav = ({ click, showSidebr }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
 
   const handleDropdownToggle = (dropdownTitle) => {
@@ -102,7 +102,10 @@ const Nav = () => {
                 onToggle={handleDropdownToggle}
               />
             </div>
-            <div className="lg:hidden block">
+            <div
+              className={`lg:hidden block ${showSidebr ? "hidden" : "block"}`}
+              onClick={click}
+            >
               <Hamberger />
             </div>
           </div>
